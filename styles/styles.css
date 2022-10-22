@@ -161,6 +161,36 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+/* флекс для иконок в хедере */
+.contact-list-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.header-icon {
+ 
+}
+.header-icon-mail {
+ 
+  margin-right: 10px;
+}
+.header-icon-mail:hover,
+.header-icon-mail:focus
+ {
+  fill: var(--accent-color);
+}
+.header-icon-telephone {
+  
+  margin-right: 10px;
+  }
+.header-icon-telephone:hover,
+.header-icon-telephone:focus {
+  fill: var(--accent-color);
+}
+
+  
+
 /* Укритий заголовок */
 
 .visually-hidden {
