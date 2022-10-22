@@ -168,9 +168,9 @@ img {
   width: 100%;
   height: 100%;
 }
-.header-icon {
+
  
-}
+
 .header-icon-mail {
  
   margin-right: 10px;
@@ -178,7 +178,7 @@ img {
 .header-icon-mail:hover,
 .header-icon-mail:focus
  {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 .header-icon-telephone {
   
@@ -186,7 +186,7 @@ img {
   }
 .header-icon-telephone:hover,
 .header-icon-telephone:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
   
@@ -301,6 +301,26 @@ img {
   width: 270px;
 }
 
+.benefits-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.benefit-icon-list {
+  
+  width: 270px;
+height: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+background: #F5F4FA;
+border-radius: 4px;
+}
+
 /* About */
 .about-list {
   display: flex;
@@ -339,7 +359,7 @@ img {
   letter-spacing: 0.03em;
 }
 .contact-link-header {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
 
