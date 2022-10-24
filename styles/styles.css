@@ -111,6 +111,7 @@ img {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 /* Хедер */
 .header {
@@ -246,6 +247,45 @@ img {
 .main-team-title {
   margin-bottom: 50px;
 }
+
+.team-soclist {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.team-soclist-item {
+  width: 44px;
+  height: 44px;
+  
+}
+.team-soc-link {
+  width: 100%;  
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+
+  
+}
+.team-soc-link :hover,
+.team-soc-link :focus {
+  background-color: var(--accent-color);
+  
+  
+}
+.team-social-item {
+  fill: #AFB1B8;
+}
+.team-soc-link :hover .team-social-item,
+.team-soc-link :hover.team-social-item  {
+  fill: #ffffff;
+}
+
+
+
 
 /* Контакт-лист */
 .contact-item {
@@ -448,3 +488,24 @@ border-radius: 4px;
   margin-top: 30px;
   border: 1px solid #eeeeee;
 }
+
+/* Постійні клієнти */
+.client-list {
+  display: flex;
+  gap: 30px;
+}
+
+.client-item {
+  width: calc((100%-150px) / 6);
+  height: 92px;
+}
+.client-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+   display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
