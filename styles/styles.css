@@ -175,6 +175,7 @@ img {
 .header-icon-mail {
  
   margin-right: 10px;
+  fill: var(--primary-text-color);
 }
 .contact-link-header:focus .header-icon-mail,
 .contact-link-header:hover .header-icon-mail
@@ -184,6 +185,7 @@ img {
 .header-icon-telephone {
   
   margin-right: 10px;
+  fill: var(--primary-text-color);
   }
 .contact-link-header:focus .header-icon-telephone,
 .contact-link-header:hover .header-icon-telephone {
@@ -310,7 +312,8 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 1600px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .button {
   border-radius: 4px;
@@ -470,6 +473,8 @@ border-radius: 4px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 .buttons {
   display: flex;
@@ -493,6 +498,10 @@ border-radius: 4px;
   margin-left: 30px;
   margin-top: 30px;
   border: 1px solid #eeeeee;
+}
+.portfolio-list .item:hover,
+.portfolio-list .item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* Постійні клієнти */
