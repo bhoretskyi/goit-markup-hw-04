@@ -176,10 +176,10 @@ img {
  
   margin-right: 10px;
 }
-.header-icon-mail:hover,
-.header-icon-mail:focus
+.contact-link-header:focus .header-icon-mail,
+.contact-link-header:hover.header-icon-mail
  {
-  fill: currentColor;
+  fill: var(--accent-color);
 }
 .header-icon-telephone {
   
@@ -257,21 +257,24 @@ img {
 .team-soclist-item {
   width: 44px;
   height: 44px;
+  border-radius: 50%;
   
 }
 .team-soc-link {
   width: 100%;  
   height: 100%;
   border-radius: 50%;
-  background-color: #fff;
+
   display: flex;
   align-items: center;  
   justify-content: center;
 
   
 }
-.team-soc-link :hover,
-.team-soc-link :focus {
+.team-soc-link:hover,
+.team-soc-link:focus {
+  
+   border-radius: 50%;
   background-color: var(--accent-color);
   
   
@@ -279,8 +282,8 @@ img {
 .team-social-item {
   fill: #AFB1B8;
 }
-.team-soc-link :hover .team-social-item,
-.team-soc-link :hover.team-social-item  {
+.team-soc-link:hover .team-social-item,
+.team-soc-link:hover.team-social-item  {
   fill: #ffffff;
 }
 
@@ -378,6 +381,7 @@ border-radius: 4px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
+  
 }
 .footer-logo {
   margin-right: 0;
@@ -386,6 +390,7 @@ border-radius: 4px;
 {
   margin-bottom: 9px;
 }
+
 
 /* Адреса */
 .adress-map {
@@ -496,7 +501,7 @@ border-radius: 4px;
 }
 
 .client-item {
-  width: calc((100%-150px) / 6);
+  width: calc((100% - 150px) / 6);
   height: 92px;
 }
 .client-link {
@@ -508,4 +513,36 @@ border-radius: 4px;
   align-items: center;  
   justify-content: center;
 }
+.client-list-icon{
+  fill: #AFB1B8;
+}
+.client-link:hover .client-list-icon,
+.client-link:focus .client-list-icon {
+  fill: var(--accent-color);
+}
+.footer-soclist{
+  justify-content: start;
+}
 
+.footer-team-soclink {
+  background-color: #FFFFFF1A;
+
+
+}
+.footer-soclist-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 0.87;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-bottom: 20px;
+
+}
+
+.container-footer {
+  display: flex;
+}
+.footer-info {
+  margin-right: 70px;
+}
