@@ -177,16 +177,16 @@ img {
   margin-right: 10px;
 }
 .contact-link-header:focus .header-icon-mail,
-.contact-link-header:hover.header-icon-mail
+.contact-link-header:hover .header-icon-mail
  {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 .header-icon-telephone {
   
   margin-right: 10px;
   }
-.header-icon-telephone:hover,
-.header-icon-telephone:focus {
+.contact-link-header:focus .header-icon-telephone,
+.contact-link-header:hover .header-icon-telephone {
   fill: currentColor;
 }
 
@@ -310,6 +310,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 1600px;
 }
 .button {
   border-radius: 4px;
@@ -542,7 +543,11 @@ padding-bottom: 20px;
 
 .container-footer {
   display: flex;
+  align-items: baseline;
 }
 .footer-info {
   margin-right: 70px;
+}
+.footer-soc-container {
+ 
 }
